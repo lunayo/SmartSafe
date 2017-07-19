@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2019BDCA1A868AA900A6F35F /* NewEmployeeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2019BDC91A868AA900A6F35F /* NewEmployeeTableViewController.m */; };
+		2019BDCD1A869D2200A6F35F /* EmployeeActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2019BDCC1A869D2200A6F35F /* EmployeeActivity.m */; };
+		2019BDD01A86AEDB00A6F35F /* Machine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2019BDCF1A86AEDB00A6F35F /* Machine.m */; };
+		2019BDD91A86B0AC00A6F35F /* MachineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2019BDD81A86B0AC00A6F35F /* MachineViewController.m */; };
+		2019BDDF1A86B3E100A6F35F /* NewAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2019BDDE1A86B3E100A6F35F /* NewAlertViewController.m */; };
 		20528C5E1A863FB900BDCC90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20528C5D1A863FB900BDCC90 /* main.m */; };
 		20528C611A863FBA00BDCC90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20528C601A863FBA00BDCC90 /* AppDelegate.m */; };
-		20528C641A863FBA00BDCC90 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20528C631A863FBA00BDCC90 /* FirstViewController.m */; };
-		20528C671A863FBA00BDCC90 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20528C661A863FBA00BDCC90 /* SecondViewController.m */; };
+		20528C641A863FBA00BDCC90 /* EmployeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20528C631A863FBA00BDCC90 /* EmployeeViewController.m */; };
+		20528C671A863FBA00BDCC90 /* AlertsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20528C661A863FBA00BDCC90 /* AlertsViewController.m */; };
 		20528C6A1A863FBA00BDCC90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20528C681A863FBA00BDCC90 /* Main.storyboard */; };
 		20528C6C1A863FBA00BDCC90 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20528C6B1A863FBA00BDCC90 /* Images.xcassets */; };
 		20528C6F1A863FBA00BDCC90 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20528C6D1A863FBA00BDCC90 /* LaunchScreen.xib */; };
 		20528C7B1A863FBA00BDCC90 /* SmartSafeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20528C7A1A863FBA00BDCC90 /* SmartSafeTests.m */; };
+		20528C871A86622B00BDCC90 /* SmartSafeServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 20528C861A86622B00BDCC90 /* SmartSafeServices.m */; };
+		20528C8B1A86633100BDCC90 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 20528C8A1A86633100BDCC90 /* Employee.m */; };
+		20D304171A8678FE0033973C /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D304161A8678FE0033973C /* ProfileViewController.m */; };
+		9D02A8F1472A34DC601759B6 /* libPods-SmartSafe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B95FF42A1D3B60B150A2AF10 /* libPods-SmartSafe.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,21 +37,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2019BDC81A868AA900A6F35F /* NewEmployeeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewEmployeeTableViewController.h; sourceTree = "<group>"; };
+		2019BDC91A868AA900A6F35F /* NewEmployeeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewEmployeeTableViewController.m; sourceTree = "<group>"; };
+		2019BDCB1A869D2200A6F35F /* EmployeeActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeActivity.h; sourceTree = "<group>"; };
+		2019BDCC1A869D2200A6F35F /* EmployeeActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeActivity.m; sourceTree = "<group>"; };
+		2019BDCE1A86AEDB00A6F35F /* Machine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Machine.h; sourceTree = "<group>"; };
+		2019BDCF1A86AEDB00A6F35F /* Machine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Machine.m; sourceTree = "<group>"; };
+		2019BDD71A86B0AC00A6F35F /* MachineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MachineViewController.h; sourceTree = "<group>"; };
+		2019BDD81A86B0AC00A6F35F /* MachineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MachineViewController.m; sourceTree = "<group>"; };
+		2019BDDD1A86B3E100A6F35F /* NewAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewAlertViewController.h; sourceTree = "<group>"; };
+		2019BDDE1A86B3E100A6F35F /* NewAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewAlertViewController.m; sourceTree = "<group>"; };
 		20528C581A863FB900BDCC90 /* SmartSafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartSafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20528C5C1A863FB900BDCC90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20528C5D1A863FB900BDCC90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		20528C5F1A863FB900BDCC90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		20528C601A863FBA00BDCC90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		20528C621A863FBA00BDCC90 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		20528C631A863FBA00BDCC90 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		20528C651A863FBA00BDCC90 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		20528C661A863FBA00BDCC90 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		20528C621A863FBA00BDCC90 /* EmployeeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmployeeViewController.h; sourceTree = "<group>"; };
+		20528C631A863FBA00BDCC90 /* EmployeeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployeeViewController.m; sourceTree = "<group>"; };
+		20528C651A863FBA00BDCC90 /* AlertsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertsViewController.h; sourceTree = "<group>"; };
+		20528C661A863FBA00BDCC90 /* AlertsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertsViewController.m; sourceTree = "<group>"; };
 		20528C691A863FBA00BDCC90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20528C6B1A863FBA00BDCC90 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		20528C6E1A863FBA00BDCC90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		20528C741A863FBA00BDCC90 /* SmartSafeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartSafeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20528C791A863FBA00BDCC90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20528C7A1A863FBA00BDCC90 /* SmartSafeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartSafeTests.m; sourceTree = "<group>"; };
+		20528C851A86622B00BDCC90 /* SmartSafeServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartSafeServices.h; sourceTree = "<group>"; };
+		20528C861A86622B00BDCC90 /* SmartSafeServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartSafeServices.m; sourceTree = "<group>"; };
+		20528C891A86633100BDCC90 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		20528C8A1A86633100BDCC90 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		20D304151A8678FE0033973C /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		20D304161A8678FE0033973C /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		37507FD5DC9E3D3FEC3FCA72 /* Pods-SmartSafe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartSafe.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartSafe/Pods-SmartSafe.release.xcconfig"; sourceTree = "<group>"; };
+		4B654C992983D201EB1DDDE5 /* Pods-SmartSafe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartSafe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartSafe/Pods-SmartSafe.debug.xcconfig"; sourceTree = "<group>"; };
+		B95FF42A1D3B60B150A2AF10 /* libPods-SmartSafe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartSafe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D02A8F1472A34DC601759B6 /* libPods-SmartSafe.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +98,8 @@
 				20528C5A1A863FB900BDCC90 /* SmartSafe */,
 				20528C771A863FBA00BDCC90 /* SmartSafeTests */,
 				20528C591A863FB900BDCC90 /* Products */,
+				F79AD3DCDC5EFC85113DB969 /* Pods */,
+				F9A38EB7787FC39C13F8A4D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,12 +115,11 @@
 		20528C5A1A863FB900BDCC90 /* SmartSafe */ = {
 			isa = PBXGroup;
 			children = (
+				20D304181A8679040033973C /* Controllers */,
+				20528C881A8662F300BDCC90 /* Models */,
+				20528C841A8661FF00BDCC90 /* Helpers */,
 				20528C5F1A863FB900BDCC90 /* AppDelegate.h */,
 				20528C601A863FBA00BDCC90 /* AppDelegate.m */,
-				20528C621A863FBA00BDCC90 /* FirstViewController.h */,
-				20528C631A863FBA00BDCC90 /* FirstViewController.m */,
-				20528C651A863FBA00BDCC90 /* SecondViewController.h */,
-				20528C661A863FBA00BDCC90 /* SecondViewController.m */,
 				20528C681A863FBA00BDCC90 /* Main.storyboard */,
 				20528C6B1A863FBA00BDCC90 /* Images.xcassets */,
 				20528C6D1A863FBA00BDCC90 /* LaunchScreen.xib */,
@@ -124,6 +154,64 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		20528C841A8661FF00BDCC90 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				20528C851A86622B00BDCC90 /* SmartSafeServices.h */,
+				20528C861A86622B00BDCC90 /* SmartSafeServices.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		20528C881A8662F300BDCC90 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				20528C891A86633100BDCC90 /* Employee.h */,
+				20528C8A1A86633100BDCC90 /* Employee.m */,
+				2019BDCB1A869D2200A6F35F /* EmployeeActivity.h */,
+				2019BDCC1A869D2200A6F35F /* EmployeeActivity.m */,
+				2019BDCE1A86AEDB00A6F35F /* Machine.h */,
+				2019BDCF1A86AEDB00A6F35F /* Machine.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		20D304181A8679040033973C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				20528C621A863FBA00BDCC90 /* EmployeeViewController.h */,
+				20528C631A863FBA00BDCC90 /* EmployeeViewController.m */,
+				20528C651A863FBA00BDCC90 /* AlertsViewController.h */,
+				20528C661A863FBA00BDCC90 /* AlertsViewController.m */,
+				20D304151A8678FE0033973C /* ProfileViewController.h */,
+				20D304161A8678FE0033973C /* ProfileViewController.m */,
+				2019BDC81A868AA900A6F35F /* NewEmployeeTableViewController.h */,
+				2019BDC91A868AA900A6F35F /* NewEmployeeTableViewController.m */,
+				2019BDD71A86B0AC00A6F35F /* MachineViewController.h */,
+				2019BDD81A86B0AC00A6F35F /* MachineViewController.m */,
+				2019BDDD1A86B3E100A6F35F /* NewAlertViewController.h */,
+				2019BDDE1A86B3E100A6F35F /* NewAlertViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F79AD3DCDC5EFC85113DB969 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B654C992983D201EB1DDDE5 /* Pods-SmartSafe.debug.xcconfig */,
+				37507FD5DC9E3D3FEC3FCA72 /* Pods-SmartSafe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F9A38EB7787FC39C13F8A4D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B95FF42A1D3B60B150A2AF10 /* libPods-SmartSafe.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20528C7E1A863FBA00BDCC90 /* Build configuration list for PBXNativeTarget "SmartSafe" */;
 			buildPhases = (
+				86B9FC9E283AE3686248CE16 /* Check Pods Manifest.lock */,
 				20528C541A863FB900BDCC90 /* Sources */,
 				20528C551A863FB900BDCC90 /* Frameworks */,
 				20528C561A863FB900BDCC90 /* Resources */,
+				353C7B00CF6639CA197F8093 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,6 +263,7 @@
 				TargetAttributes = {
 					20528C571A863FB900BDCC90 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = B2UCUUW8ED;
 					};
 					20528C731A863FBA00BDCC90 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -219,15 +310,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		353C7B00CF6639CA197F8093 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartSafe/Pods-SmartSafe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86B9FC9E283AE3686248CE16 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		20528C541A863FB900BDCC90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20528C671A863FBA00BDCC90 /* SecondViewController.m in Sources */,
+				2019BDDF1A86B3E100A6F35F /* NewAlertViewController.m in Sources */,
+				2019BDCA1A868AA900A6F35F /* NewEmployeeTableViewController.m in Sources */,
+				2019BDCD1A869D2200A6F35F /* EmployeeActivity.m in Sources */,
+				20528C671A863FBA00BDCC90 /* AlertsViewController.m in Sources */,
 				20528C611A863FBA00BDCC90 /* AppDelegate.m in Sources */,
-				20528C641A863FBA00BDCC90 /* FirstViewController.m in Sources */,
+				2019BDD91A86B0AC00A6F35F /* MachineViewController.m in Sources */,
+				20528C641A863FBA00BDCC90 /* EmployeeViewController.m in Sources */,
+				20528C8B1A86633100BDCC90 /* Employee.m in Sources */,
+				20D304171A8678FE0033973C /* ProfileViewController.m in Sources */,
+				20528C871A86622B00BDCC90 /* SmartSafeServices.m in Sources */,
 				20528C5E1A863FB900BDCC90 /* main.m in Sources */,
+				2019BDD01A86AEDB00A6F35F /* Machine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +418,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dan Lim (M8S5H93JX6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dan Lim (M8S5H93JX6)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -327,7 +460,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: GOQLUE PTE LTD (B2UCUUW8ED)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: GOQLUE PTE LTD (B2UCUUW8ED)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -347,21 +481,29 @@
 		};
 		20528C7F1A863FBA00BDCC90 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B654C992983D201EB1DDDE5 /* Pods-SmartSafe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dan Lim (M8S5H93JX6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dan Lim (M8S5H93JX6)";
 				INFOPLIST_FILE = SmartSafe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		20528C801A863FBA00BDCC90 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37507FD5DC9E3D3FEC3FCA72 /* Pods-SmartSafe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: GOQLUE PTE LTD (B2UCUUW8ED)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: GOQLUE PTE LTD (B2UCUUW8ED)";
 				INFOPLIST_FILE = SmartSafe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -418,6 +560,7 @@
 				20528C801A863FBA00BDCC90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20528C811A863FBA00BDCC90 /* Build configuration list for PBXNativeTarget "SmartSafeTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +569,7 @@
 				20528C831A863FBA00BDCC90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

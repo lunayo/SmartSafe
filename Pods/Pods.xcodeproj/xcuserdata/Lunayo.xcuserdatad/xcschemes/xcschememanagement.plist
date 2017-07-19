@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-SmartSafe-AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SmartSafe-HexColors.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SmartSafe-JBChartView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SmartSafe-TSMessages.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SmartSafe.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>115113DB278BE0D9CFA57507</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5EDAD8764BB2BB54EB660494</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>67CEB6872D099806C70E6B93</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8383BDC88565948A359C38B3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F4B8BEE15619B2CFF123B323</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

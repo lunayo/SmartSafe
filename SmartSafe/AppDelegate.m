@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import <TSMessages/TSMessage.h>
+#import "EmployeeViewController.h"
+#import "AlertsViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +20,67 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    UIUserNotificationType types = UIUserNotificationTypeBadge |
+    UIUserNotificationTypeSound | UIUserNotificationTypeAlert;
+    
+    UIUserNotificationSettings *mySettings =
+    [UIUserNotificationSettings settingsForTypes:types categories:nil];
+    
+    [[UIApplication sharedApplication] registerUserNotificationSettings:mySettings];
+    [application registerForRemoteNotifications];
+    
     return YES;
+}
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
+    NSString *message = [[userInfo objectForKey:@"aps"] objectForKey:@"alert"];
+    
+    if ([message containsString:@"in / out"]) {
+        [TSMessage showNotificationInViewController:self.window.rootViewController
+                    title:nil
+                    subtitle:message
+                    image:nil
+                    type:TSMessageNotificationTypeMessage
+                    duration:2.0f
+                    callback:^{
+                        UITabBarController *tabbar = (UITabBarController *)self.window.rootViewController;
+                        [tabbar setSelectedIndex:0];
+                    } buttonTitle:nil
+                    buttonCallback:nil
+                    atPosition:TSMessageNotificationPositionTop
+                    canBeDismissedByUser:YES];
+        
+        UITabBarController *tabbar = (UITabBarController *)self.window.rootViewController;
+        EmployeeViewController *controller = [[[tabbar.viewControllers objectAtIndex:0] viewControllers] lastObject];
+        [controller loadEmployeesInformation:NO];
+    } else if ([message containsString:@"hours"]) {
+        [TSMessage showNotificationInViewController:self.window.rootViewController
+                                              title:nil
+                                           subtitle:message
+                                              image:nil
+                                               type:TSMessageNotificationTypeMessage
+                                           duration:2.0f
+                                           callback:^{
+                                               UITabBarController *tabbar = (UITabBarController *)self.window.rootViewController;
+                                               [tabbar setSelectedIndex:2];
+                                           } buttonTitle:nil
+                                     buttonCallback:nil
+                                         atPosition:TSMessageNotificationPositionTop
+                               canBeDismissedByUser:YES];
+
+        UITabBarController *tabbar = (UITabBarController *)self.window.rootViewController;
+        AlertsViewController *controller = [[[tabbar.viewControllers objectAtIndex:2] viewControllers] lastObject];
+        [[controller alerts] insertObject:message atIndex:0];
+        [controller reloadData];
+    }
+}
+
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
+    NSString *token = [[deviceToken description] stringByTrimmingCharactersInSet: [NSCharacterSet characterSetWithCharactersInString:@"<>"]];
+    token = [token stringByReplacingOccurrencesOfString:@" " withString:@""];
+    
+    
+    NSLog(@"content---%@", token);   //this is the string
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
